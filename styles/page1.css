@@ -1,0 +1,109 @@
+aside{
+    padding: 10px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    height: 530px
+}
+aside a{
+    text-decoration: none;
+    color: #030f94;
+    font-weight: bold;
+}
+aside a:hover{
+    color: rgb(255, 0, 0);
+}
+aside ul{
+    list-style-type: none;
+}
+section{
+    padding: 10px;
+    text-align: justify;
+}
+section img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+footer{
+    background:linear-gradient( to right, #030f94, #a30505);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    header h3 {
+        font-size: 0.9rem;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul li a {
+        padding: 0.8rem;
+        border-bottom: 1px solid #555;
+    }
+    
+    aside ul li {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    aside ul li img {
+        width: 40px !important;
+        height: 40px;
+        margin-right: 10px !important;
+    }
+    
+    section h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem 0.5rem;
+    }
+    
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    header h3 {
+        font-size: 0.8rem;
+    }
+    
+    aside, section {
+        padding: 1rem;
+    }
+    
+    aside h2, section h2 {
+        font-size: 1.2rem;
+    }
+    
+    aside ul li img {
+        width: 35px !important;
+        height: 35px;
+    }
+    
+    section p {
+        font-size: 0.95rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
